@@ -14,10 +14,16 @@ registerMicroApps([
     activeRule: '/lowCode',
   },
   {
-    name: 'vue', // app name registered
-    entry: '//localhost:3007/',
+    name: 'vue-project', // app name registered
+    entry: '//localhost:8080/',
     container: '#root',
-    activeRule: '/vue',
+    activeRule: '/vueDemo',
+  },
+  {
+    name: 'grt-data-console-web', // app name registered
+    entry: '//localhost:8000/',
+    container: '#root',
+    activeRule: '/data',
   },
 ])
 
