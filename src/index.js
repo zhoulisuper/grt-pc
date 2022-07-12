@@ -25,6 +25,12 @@ registerMicroApps([
     container: '#root',
     activeRule: '/data',
   },
+  {
+    name: 'grt-low-code-platform', // app name registered
+    entry: '//localhost:5556/',
+    container: '#root',
+    activeRule: '/editLowCode',
+  },
 ])
 
 start()
